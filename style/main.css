@@ -402,43 +402,62 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-family: 'Source Code Pro', Courier;
-    font-size: 16px; 
+    font-size: 32px; 
     color: #354b59;}
   .tile.tile-2 .tile-inner {
     background: url('../tile-sets/android/2.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
+    z-index: -1;
+    position: absolute;
+    color: #FF3F80;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: url('../tile-sets/android/4.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
+    z-index: -1;
+    position: absolute;
+    color: #FF3F80;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     background: url('../tile-sets/android/8.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
+    z-index: -1;
+    position: absolute;
+    color: #FF3F80;
     font-weight: medium;
-    font-size: 11px;
+    font-size: 32px;
+
   }
   .tile.tile-16 .tile-inner {
     background: url('../tile-sets/android/16.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
+    z-index: -1;
+    position: absolute;
+    color: #3E50B4;
     font-weight: medium;
-    font-size: 10px;
+    font-size: 32px;
   }
   .tile.tile-32 .tile-inner {
     background: url('../tile-sets/android/32.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    font-size: 14px;
+    z-index: -1;
+    position: absolute;
+    color: #FFC107;
+    font-size: 32px;
   }
   .tile.tile-64 .tile-inner {
     background: url('../tile-sets/android/64.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    font-size: 14px;
+    z-index: -1;
+    position: absolute;
+    color: #3E50B4;
+    font-size: 32px;
 
   }
   .tile.tile-128 .tile-inner {
@@ -446,8 +465,11 @@ hr {
     background: url('../tile-sets/android/128.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
+    z-index: -1;
+    position: absolute;
+    color: #FF3F80;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 12px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 12px; } }
@@ -455,8 +477,11 @@ hr {
     background: url('../tile-sets/android/256.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
+    z-index: -1;
+    position: absolute;
+    color: #FF3F80;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 14px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 16px; } }
@@ -464,8 +489,11 @@ hr {
     background: url('../tile-sets/android/512.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
+    z-index: -1;
+    position: absolute;
+    color: #FF3F80;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 13px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 13px; } }
@@ -473,8 +501,11 @@ hr {
     background: url('../tile-sets/android/1024.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
+    z-index: -1;
+    position: absolute;
+    color: #FF3F80;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 10px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 10px; } }
@@ -482,8 +513,11 @@ hr {
     background: url('../tile-sets/android/2048.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
+    z-index: -1;
+    position: absolute;
+    color: #FF3F80;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 10px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 10px; } }
@@ -491,7 +525,7 @@ hr {
     color: #f9f6f2;
     background: #3c3a32;
     font-weight: medium;
-    font-size: 12px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
